@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class CalcularCoeficientes {
 	
-
-	public static void calcularSoluciones(double a, double b, double c) {
+	public static void calcularSol(double a, double b, double c) {
 	    double discriminante = b * b - 4 * a * c;
 	    double x1, x2;
 	    
@@ -22,6 +21,6 @@ public class CalcularCoeficientes {
 	}
 	
 	public static void main(String[] args) {
-		calcularSoluciones(1, -2 , 1);
+		calcularSol(1, -2 , 1);
 	}
 }
