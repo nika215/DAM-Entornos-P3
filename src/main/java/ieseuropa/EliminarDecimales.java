@@ -1,13 +1,17 @@
 package main.java.ieseuropa;
 
 public class EliminarDecimales {
+	
+	private static double eliminarDec(double num) {
+		
+		int numEntero = (int) num;
+		
+		return numEntero;
+	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		double num = 3.14159;
-		int numEntero = (int) num; 
-		System.out.println(numEntero);
+		double num = 6.5;
+		System.out.println("Eliminando sus decimales es: " + eliminarDec(num));
 	}
 
 }
