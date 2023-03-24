@@ -5,9 +5,18 @@ public class Cadena {
 	private static String cambiarMayus(String string) {
 		return string.toUpperCase();
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+	private static String repetir(String string1,String string2, int veces) {
+		String resultado = "";
+		for (int i = 0; i < veces; i++) {
+			resultado += string1 + " " + string2 + " ";
+			
+		}
+		return resultado;
+	}
+
+	public static void main(String[] args) {
+		System.out.println(repetir("coche", "casa", 2));
 	}
 
 }
