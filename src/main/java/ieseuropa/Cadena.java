@@ -5,9 +5,15 @@ public class Cadena {
 	private static String cambiarMayus(String string) {
 		return string.toUpperCase();
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+	private static int longitud(String string) {
+		return string.length();
+	}
+
+	public static void main(String[] args) {
+		String bicho = "Aaaaaay mi madre el Bicho";
+		cambiarMayus(bicho);
+		longitud(bicho);
 	}
 
 }
